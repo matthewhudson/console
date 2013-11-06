@@ -1,4 +1,12 @@
 {
+  "name": "console",
+  "description": "returns `console` if present",
+  "homepage": "https://github.com/matthewhudson/console",
+  "keywords": [
+    "console"
+  ],
+  "version": "0.5.2",
+  "license": "MIT",
   "author": {
     "name": "AJ ONeal",
     "email": "coolaj86@gmail.com",
@@ -7,15 +15,12 @@
   "contributors": [
       "Matthew Hudson <matthud@gmail.com>"
   ],
-  "name": "console",
-  "description": "returns `console` if present",
-  "keywords": [
-    "console"
-  ],
-  "version": "0.5.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/matthewhudson/console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthewhudson/console/issues"
   },
   "main": "./console.js",
   "directories": {
@@ -27,8 +32,6 @@
   },
   "dependencies": {},
   "devDependencies": {},
-  "bugs": {
-    "url": "https://github.com/matthewhudson/console/issues"
-  }
+  "preferGlobal": true
 }
 
