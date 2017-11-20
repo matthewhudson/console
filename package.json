@@ -1,6 +1,6 @@
 {
   "name": "console",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "homepage": "https://github.com/matthewhudson/console",
   "description": "Returns `console` if present, otherwise returns a `noop`.",
   "main": "lib/index.js",
