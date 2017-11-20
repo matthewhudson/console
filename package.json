@@ -1,20 +1,26 @@
 {
   "name": "console",
-  "description": "returns `console` if present",
+  "version": "0.6.3",
   "homepage": "https://github.com/matthewhudson/console",
+  "description": "Returns `console` if present, otherwise returns a `noop`.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
   "keywords": [
     "console"
   ],
-  "version": "0.5.2",
   "license": "MIT",
-  "author": {
-    "name": "AJ ONeal",
-    "email": "coolaj86@gmail.com",
-    "url": "http://coolaj86.info"
-  },
-  "contributors": [
-      "Matthew Hudson <matthud@gmail.com>"
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/matthewhudson/console.git"
@@ -22,16 +28,7 @@
   "bugs": {
     "url": "https://github.com/matthewhudson/console/issues"
   },
-  "main": "./console.js",
-  "directories": {
-    "lib": "."
-  },
-  "engines": {
-    "node": ">= 0.2.0",
-    "ender": ">= 0.5.0"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "preferGlobal": true
+  "devDependencies": {
+    "nwb": "0.19.x"
+  }
 }
-
