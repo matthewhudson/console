@@ -1,4 +1,4 @@
-var console = require('../../console.js');
+var console = require('../../src');
 
 console.log("This is console.log() from Node.js");
 
@@ -9,4 +9,3 @@ console.info("This is console.info() from Node.js");
 console.warn("This is console.warn() from Node.js");
 
 console.error("This is console.error() from Node.js");
-
