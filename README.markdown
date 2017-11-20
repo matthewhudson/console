@@ -5,7 +5,7 @@
 ## Installation
 
 ``` sh
-npm install kash
+npm install console
 ```
 
 And then import it:
