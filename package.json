@@ -1,15 +1,11 @@
 {
   "name": "console",
-  "version": "0.6.4",
+  "version": "0.7.0",
   "homepage": "https://github.com/matthewhudson/console",
   "description": "Returns `console` if present, otherwise returns a `noop`.",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "files": [
-    "es",
-    "lib",
-    "umd"
-  ],
+  "files": ["es", "lib", "umd"],
   "scripts": {
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
@@ -17,9 +13,7 @@
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
-  "keywords": [
-    "console"
-  ],
+  "keywords": ["console"],
   "license": "MIT",
   "repository": {
     "type": "git",
