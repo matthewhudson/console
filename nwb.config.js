@@ -1,10 +1,10 @@
 module.exports = {
-  type: 'web-module',
+  type: "web-module",
   npm: {
     esModules: true,
     umd: {
-      global: 'kash',
+      global: "console",
       externals: {}
     }
   }
-}
+};

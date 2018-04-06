@@ -1,11 +1,12 @@
 # Console
 
-##### Drop-in replacement for `console` - a cross-environment fix for missing methods.
+> Drop-in replacement for `console` - a cross-environment fix for missing
+methods.
 
 ## Installation
 
 ``` sh
-npm install console
+npm install console --save
 ```
 
 And then import it:
@@ -24,7 +25,7 @@ const console = require('console').default
 Or use script tags and globals.
 
 ``` html
-<script src="https://unpkg.com/console"></script>
+<script src="https://unpkg.com/console/umd/console.min.js"></script>
 ```
 
 And then grab it off the global like so:
