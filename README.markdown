@@ -1,5 +1,7 @@
 # Console
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/matthewhudson/console.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://badge.fury.io/js/console.svg)](http://badge.fury.io/js/console)
 [![NPM downloads](https://img.shields.io/npm/dm/console.svg)](https://www.npmjs.com/package/console)
 
