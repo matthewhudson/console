@@ -22,6 +22,6 @@
     "url": "https://github.com/matthewhudson/console/issues"
   },
   "devDependencies": {
-    "nwb": "0.21.5"
+    "nwb": "0.22.0"
   }
 }
